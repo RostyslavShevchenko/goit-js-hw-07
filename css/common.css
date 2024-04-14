@@ -217,8 +217,60 @@ button {
   margin: 0;
 }
 
-.change-color:hover,
-.change-color:focus,
-.change-color:active {
+.change-color:hover {
   background: #6c8cff;
+}
+
+#controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 32px;
+  max-width: 886px;
+  height: 104px;
+  background: #f6f6fe;
+  margin: 0 auto 16px;
+}
+
+#controls button {
+  margin: 0;
+}
+
+.create-btn {
+width: 120px;
+}
+
+.create-btn:hover,
+.create-btn:focus {
+  background: #6c8cff;
+}
+
+.destroy-btn {
+  width: 120px;
+  background: #ff4e4e;
+}
+
+.destroy-btn:hover,
+.destroy-btn:focus {
+  background: #ff7070;
+}
+
+#controls input {
+  text-align: center;
+}
+
+#boxes {
+  border-radius: 8px;
+  padding: 32px;
+  max-width: 886px;
+  min-height: 160px;
+  background: #f6f6fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 16px;
 }

@@ -22,7 +22,7 @@ function createBoxes(amount) {
   }
 }
 
-function destroyBoxes () {
+  function destroyBoxes () {
   containerForBoxes.innerHTML = '';
 };
 
